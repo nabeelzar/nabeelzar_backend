@@ -3,11 +3,12 @@ asgiref==3.5.2
 backports.zoneinfo==0.2.1
 cachetools==5.2.0
 camel-kenlm==2021.12.27
-camel-tools @ file:///home/nabeeli/camel_tools_github/camel_tools
+camel-tools==1.4.1
 certifi==2022.9.24
 charset-normalizer==2.1.1
 dill==0.3.5.1
 Django==4.1.1
+djangorestframework==3.14.0
 docopt==0.6.2
 editdistance==0.6.0
 emoji==2.1.0
