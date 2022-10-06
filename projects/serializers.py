@@ -1,6 +1,7 @@
 from rest_framework import serializers
 from projects.models import Project, ProjectImages, Technology
 
+
 class TechnologySerializer(serializers.ModelSerializer):
 	class Meta:
 		model = Technology
@@ -18,5 +19,4 @@ class ProjectSerializer(serializers.ModelSerializer):
 	technologies = TechnologySerializer(many=True)
 	class Meta:
 		model = Project 
-		fields = ["id", "name", "description", "date_started", "date_completed", "technologies", "project_images"] 
-
+		fields = ["id", "name", "description", "date_started", "date_completed", "technologies", "project_images"]
