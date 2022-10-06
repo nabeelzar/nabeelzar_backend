@@ -31,7 +31,9 @@ SECRET_KEY = secret
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '172.17.185.230'
+    '172.17.185.230',
+    '172.17.176.230',
+    'localhost'
 ]
 
 
@@ -45,7 +47,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'arabic'
+    'arabic',
+    'delpeople',
+    'projects',
 ]
 
 MIDDLEWARE = [
